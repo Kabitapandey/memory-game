@@ -1,0 +1,27 @@
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 0 15% 0 15%;
+}
+
+.images {
+    border: 1px solid none;
+    background-color: pink;
+    height: 300px;
+    width: 300px;
+    margin-top: 5%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.reset {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+}
